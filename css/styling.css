@@ -1,0 +1,14 @@
+.socialMediaIcon {
+  height: 40px;
+  width: 40px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.glitterText {
+  margin-left: 40px;
+}
+
+.textField {
+  max-width: 600px;
+}
