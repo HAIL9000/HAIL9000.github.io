@@ -12,3 +12,8 @@
 .textField {
   max-width: 600px;
 }
+
+.textFieldLeft {
+  max-width: 700px;
+  text-align: left;
+}
