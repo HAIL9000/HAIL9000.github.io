@@ -20,3 +20,8 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.selfie {
+  max-width: 300px;
+  max-height: 300px;
+}
