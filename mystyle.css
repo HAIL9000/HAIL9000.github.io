@@ -21,17 +21,17 @@ body {
     min-height: 100%;
 }
 .about {
-	left: 50%;
-	position: absolute;
-	top: 45%;
-	transform: translate(-50%, -55%);
+	transform: translate(0, 20%);
 	text-align: left;
 }
 .description {
     max-width: 400px;
 }
 .top-buffer {
-    margin-top:40px;
+    margin-top:20px;
+}
+.bottom-buffer {
+    margin-bottom:40px;
 }
 .avatar {
     max-width: 350px;
