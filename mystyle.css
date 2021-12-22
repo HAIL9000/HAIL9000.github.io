@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+}
+.navbar {
+    background:#86c1c4;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.min-100 {
+    min-height: 100%;
+}
+.about {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: left;
+}
+.description {
+    max-width: 400px;
+}
+.avatar {
+    max-width: 350px;
+    max-height: 350px;
+}
+.email button {
+    border:1px solid #86c1c4;
+    color: #86c1c4; 
+}
+.email button:hover {
+    border:1px solid #ffffff;
+    background: #86c1c4;;
+    color:#ffffff; 
+}
