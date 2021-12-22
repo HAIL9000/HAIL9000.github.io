@@ -30,16 +30,25 @@ body {
 .description {
     max-width: 400px;
 }
+.top-buffer {
+    margin-top:40px;
+}
 .avatar {
     max-width: 350px;
     max-height: 350px;
 }
 .email button {
-    border:1px solid #86c1c4;
-    color: #86c1c4; 
+    border:1px solid #000000;
+    color: #000000;
 }
 .email button:hover {
-    border:1px solid #ffffff;
-    background: #86c1c4;;
-    color:#ffffff; 
+    border:1px solid #b38ee6;
+    background: #ffffff;
+    color:#b38ee6;
 }
+.url-color {
+    color: #b38ee6 !important;
+  }
+.url-color:hover, .text-my-own-color:active {
+    color: #b38ee6 !important;
+  }
