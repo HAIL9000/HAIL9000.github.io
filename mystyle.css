@@ -33,6 +33,9 @@ body {
 .bottom-buffer {
     margin-bottom:40px;
 }
+.no-bottom-margin {
+    margin-bottom:0;
+}
 .avatar {
     max-width: 350px;
     max-height: 350px;
@@ -51,4 +54,7 @@ body {
   }
 .url-color:hover, .text-my-own-color:active {
     color: #b38ee6 !important;
-  }
+}
+.resume {
+    margin-top: 40px;
+}
