@@ -9,13 +9,13 @@ body {
 .nav-link,
 .navbar-brand {
     color: #fff;
-    cursor: pointer;
 }
 .nav-link {
     margin-right: 1em !important;
 }
 .nav-link:hover {
-    color: #000;
+    color: #ffffff;
+    text-decoration: underline;
 }
 .min-100 {
     min-height: 100%;
