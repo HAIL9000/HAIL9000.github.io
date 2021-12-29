@@ -33,6 +33,9 @@ body {
 .bottom-buffer {
     margin-bottom:40px;
 }
+.sm-bottom-buffer{
+    margin-bottom:20px;
+}
 .no-bottom-margin {
     margin-bottom:0;
 }
@@ -61,4 +64,8 @@ body {
 .header {
     color:#86c1c4;
     margin-bottom:10px;
+}
+.project-image{
+    max-width: 300px;
+    max-height: 300px;
 }
