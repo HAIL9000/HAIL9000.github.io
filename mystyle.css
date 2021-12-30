@@ -39,6 +39,9 @@ body {
 .no-bottom-margin {
     margin-bottom:0;
 }
+.right-padding {
+    padding-right:3%;
+}
 .avatar {
     max-width: 350px;
     max-height: 350px;
