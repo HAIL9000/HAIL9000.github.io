@@ -86,6 +86,11 @@ body {
     background-color: rgba(70, 70, 70, 0.25);
   }
   
-  .carousel .carousel-indicators .active {
+.carousel .carousel-indicators .active {
     background-color: #86c1c4;
-  }
+}
+
+.img-max {
+    max-width: 1100px;
+    width:100%;
+}
