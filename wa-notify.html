@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--import bootstrap-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+        <!-- Bootstrap Font Icon CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <!--page title-->
+        <title>COVID Exposure Notifications</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--import css stylesheet-->
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+
+    <body>
+        <!--import jquery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+        <!--load bootstrap javascript-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+            integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+            crossorigin="anonymous"></script>
+
+        <!--navigation bar-->
+        <nav class="navbar navbar-expand-md">
+            <div class="navbar-brand"><b>Hailee Kenney</b></div>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-navigation">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./projects.html">Case Studies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./resume.html">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--header-->
+        <header class="page-header header container-fluid h-100"></header>
+        <!--page content-->
+        <div class='container-fluid no-gutters resume'>
+            <div class="row align-items-top">
+                <div class="col-md-6 offset-md-3 content-max-small d-block mx-auto">
+                    <div class="float-center">
+                        <h1>COVID Exposure Notifications</h1>
+                        <h4 class='bottom-buffer'>Understanding users’ experience with and impression of the WA Notify self reporting feature</h4>
+
+                        <img class="img-fluid img-max d-block mx-auto" src="images/wa-notify/header-image.png" style="margin: auto;" alt="">
+
+                        <h3 class='header'>Overview</h3>
+
+                        <p class="no-bottom-margin"><b>Team:</b> Charlsy Yang, Hailee Kenney, Nathan Ball</p>
+                        <p class="no-bottom-margin"><b>Project Timeline:</b> 9 Weeks</p>
+                        <p class="no-bottom-margin"><b>Number of Participants:</b> 8</p>
+                        <p><b>Research Methods:</b> Usability testing, RITE method, qualitative interviews</p>
+
+                        <p>This study was conducted on behalf of the team behind <a class='url-color' href="https://doh.wa.gov/emergencies/covid-19/wa-notify">WA Notify (also known as Washington Exposure Notifications)</a>, a mobile application that can anonymously inform users if they may have been exposed to COVID-19. The goal of this study was to explore the user experience  of the newly-added “self-attestation” feature on iOS. Based on discussions with the WA Notify team, we wanted to focus on the usability of the feature, but also address how users felt about the application as a whole: whether they found it valuable to themselves and their communities, and whether they understood the inner workings enough to find it trustworthy.</p>
+
+                        <p>To address these questions we designed and conducted a study which combined usability testing with qualitative interview questions, and employed the RITE (Rapid Iterative Testing and Evaluation) method, making and testing new prototypes based on test results. We ultimately found that while users are able to easily complete the task of reporting and have an overall positive view of the application, there were key opportunities to improve trust and clarity.</p>
+
+                        <h3 class='header'>Using WA Notify</h3>
+                        <p>Users who receive a positive COVID-19 test result at a testing site will also receive a one-time reporting code with their result. Users can then use this code to report their positive result through the WA Notify application. This will alert any other  active users of the application that the COVID-positive user has been near recently of a potential exposure.</p>
+
+                        <p>At the time of this study, WA Notify had been recently updated to include a new “self-attestation” feature. This feature added the ability to also report a positive test result from an at-home test kit by requesting a one-time reporting code through the app. To use the “self-attestation” feature, a user would:</p>
+
+                        <ul type="1">
+                            <li>Open the Exposure Notifications application from iOS settings</li>
+                            <li>Select that they want to share a positive diagnosis</li>
+                            <li>Fill out COVID test information and request a one-time reporting code</li>
+                            <li>Receive text message with one-time reporting code</li>
+                            <li>Follow URL from text message to return to the application</li>
+                            <li>Submit COVID test result</li>
+                        </ul>
+
+                        <h3 class='header'>Objectives</h3>
+                        <p>After conducting an initial heuristic evaluation and meeting with the WA Notify team, we identified the following objectives and themes for the study:</p>
+
+                        <img class="img-fluid img-max d-block mx-auto" src="images/wa-notify/themes-objectives.png" style="margin: auto;" alt=""> 
+
+                        <p>We collaborated with the WA Notify team throughout the study to share progress updates, gather feedback and ensure we were working towards their desired goals. I served as our primary point of contact with the WA Notify team.</p>
+
+                        <h3 class='header'>Methodology</h3>
+
+                        <p>Due to the nature of the data we were looking to collect, we chose to use a combination of usability testing and qualitative interview questions. Each session was around 30 minutes and took place via Zoom. The participants were given a hypothetical scenario where they had received a positive result from an at-home COVID test and were asked to report their result using an in-browser mockup of the iOS version of the WA Notify application. Although the application is available on both iOS and Android devices, we chose to focus on the iOS version due to time and team capacity, and the fact that our heuristic evaluation pointed to more potential barriers with the iOS version. Participants were asked to think out loud as they completed their tasks and were also asked pre-study and post-study questions (all of which I wrote), as well as post-task questions. I designed all the qualitative portions of the study, and served as a facilitator, note-taker, or both for all interviews. The format of each session consisted of the following:</p>
+
+                        <img class="img-fluid img-max d-block mx-auto" src="images/wa-notify/session-outline.png" style="margin: auto;" alt="">
+
+                        <p>We also chose to employ the RITE method for this study. While we used the same testing protocol every time, we conducted testing in phases with the existing feature and a modified prototype.</p>
+
+                        <img class="img-fluid img-max d-block mx-auto" src="images/wa-notify/rite-study.png" style="margin: auto;" alt="">
+
+                        <h3 class='header'>Participants</h3>
+
+                        <p>As WA Notify is intended to be used by anyone who resides in or is visiting Washington state, we chose not to define any requirements for participants, and did not collect demographic information in our recruitment screener. Instead we chose to explore whether there was a correlation between participants' impressions of WA Notify and their level of “COVID caution”. In order to rate each participant’s level of caution as “low”, “medium”, or “high”, we asked questions related to:</p>
+
+                        <ul>
+                            <li>Mask wearing habits</li>
+                            <li>Level of vaccination</li>
+                            <li>Level of COVID-related news consumption</li>
+                            <li>Change in daily habits due to COVID</li>
+                        </ul>
+
+                        <p>We shared the screener with HCDE peers and our personal networks via social media to recruit participants - I handled all participant coordination, communication, and scheduling. <b>Although we did identify a spectrum of levels of caution, we ultimately found no correlation between a participant's caution level and their impressions of WA Notify.</b></p>
+
+                        <h3 class='header'>Findings and Recommendations</h3>
+                        <p>Data from each participant was organized into a table and analyzed based on the two phases of the study to identify common themes. I took the lead on organizing and synthesizing study data. Overall the application was perceived as usable and valuable by participants.  <b>All users saw potential value in the application because they felt it could serve themselves and their communities.</b> Additionally, once they located the application <b>all users were able to complete the reporting process, because the application UI is straightforward and easy to navigate.</b> On a scale of 1 (very difficult) to 7 (very easy), 7 out of 8 participants rated filling out the form to request a code a 7.</p>
+
+                        <p>Using a combination of qualitative interview data, observational notes, post-task questions and quantitative likert scale ratings, we identified several areas for improvement and recommendations. We rated each using the following severity scale.</p>
+
+                        <img class="img-fluid img-max d-block mx-auto" src="images/wa-notify/severity-scale.png" style="margin: auto;" alt="">
+                        
+                        <p>Overall we identified <b>4 major problems</b> and <b>3 minor problems</b>.  I wrote up detailed reports on several of our findings and recommendations. Highlighted here are the four issues we felt were most significant.</p>
+
+                        <!--ISSUE ONE-->
+                        <img class="img-fluid img-max d-block mx-auto" src="images/wa-notify/issue1.png" style="margin: auto;" alt="">
+
+                        <img class="severity-image" src="images/wa-notify/major.png">
+
+                        <p class="no-bottom-margin"><b>1. Nearly all users fail to find the iOS app because its location does not align with expectations</b></p>
+                        <p>Users frequently struggle to locate the WA Notify application, which is buried within the Settings menu.</p>
+
+                        <ul>
+                            <li>All <b>5 participants</b> new to WA Notify on iOS tried clicking something other than Settings first</li>
+                            <li>These <b>5 participants</b> also mentioned that they wouldn’t expect it to be in Settings</li>
+                        </ul>
+
+                        <p><i>“I guess I would go to the app store and download the app if I don’t have it” (P8)</i></p>
+                        
+                        <p><i>“If there’s no app, maybe I have to go to the website” (P3)</i></p>
+
+                        <p><b>Recommendation:</b>  Create a standalone WA Notify app for the phone home screen, similar to Android. </p>
+
+                        <!--ISSUE TWO-->
+                        <img class="img-fluid img-max d-block mx-auto" src="images/wa-notify/issue2.png" style="margin: auto;" alt="">
+
+                        <img class="severity-image" src="images/wa-notify/major.png">
+
+                        <p class="no-bottom-margin"><b>2. Most users are confused about the one-time reporting code due to lack of communication</b></p>
+                        <p>There’s major user confusion around what the reporting code is and how they could have gotten it.</p>
+
+                        <ul>
+                            <li><b>4 participants</b> confused it with two-factor authentication</li>
+                            <li><b>2 participants</b> saw requesting code as a “backup plan”</li>
+                        </ul>
+
+                        <p><i>“This wording is a little confusing… ‘didn’t get a code?’ like I should have?” (P2)</i></p>
+
+                        <p><i>“Immediate thought was authentication code, in my head I thought maybe it sent me a text or email to verify I am who I say I am. It was interesting that to trigger the next step, I had to press ‘I didn’t get a code’ - at what point was I supposed to get one?” (P3)</i></p>
+
+                        <p><i>“I thought this thing was like a backup plan if I didn’t receive the code.” (P1)</i></p>
+
+                        <p><b>Recommendations:</b> Give the two paths (“I already have a code” and “I need to request a code”) equal weight, and communicate clearly what the code is, as well as where and how they could have gotten it.</p>
+
+                        <!--ISSUE THREE-->
+                        <img class="img-fluid img-max d-block mx-auto" src="images/wa-notify/issue3.png" style="margin: auto;" alt="">
+
+                        <img class="severity-image" src="images/wa-notify/minor.png">
+
+                        <p class="no-bottom-margin"><b>3. Several users were confused by the message notification because of inconsistent language</b></p>
+                        <p>The use of “code” in the button contradicts the notification title, which says “link”. The form and content of the notification does not indicate that it is a text message.</p>
+
+                        <ul>
+                            <li><b>3 participants</b> tried to find a code in the text message until they failed to find one</li>
+                            <li><b>2 participants</b> expected tapping the notification will bring you directly to share your result</li>
+                        </ul>
+
+                        <p><i>“My expectation was that I was going to go back to the screen where I entered the verification code… I wasn’t expecting this notification with a link. Why would I get a link? I asked for a code…” (P2)</i></p>
+
+                        <p><i>“It’s confusing that it has the exposure notification icon…. I was expecting to get a text message” (P5)</i></p>
+
+                        <p><b>Recommendations:</b> Unify the language used and tightly connect words with previous actions and consequent actions.</p>
+
+                        <!--ISSUE FOUR-->
+                        <img class="img-fluid img-max d-block mx-auto" src="images/wa-notify/issue4.png" style="margin: auto;" alt="">
+                        
+                        <img class="severity-image" src="images/wa-notify/major.png">
+                        <p class="no-bottom-margin"><b>4. Many users found the text message unreadable and untrustworthy because of the unstructured content</b></p>
+                        <p>The message is unstructured, with a chunk of text that is hard to scan and digest. The authentication ID at the end causes distrust and suspicion.</p>
+
+                        <p><b>4 participants</b> expressed concern about the message for its unprofessional format</p>
+
+                        <p><i>“This kind of feels like a spam message… especially if it comes from that number… the gibberish at the end of the text message feels like spam or like junk mail” (P1)</i></p>
+
+                        <p><i>“I wouldn’t know that this link is used for the process, I probably wouldn’t read the text” (P3)</i></p>
+
+                        <p><b>Recommendations:</b> Divide the message into multiple paragraphs, remove the random ID if possible, and add more context to the message.</p>
+
+                        <p>We provided our findings in the form of a presentation and a comprehensive report to the WA Notify team. The team reported that the findings were valuable, and provided them insights to improve how they communicate with the public about the application.</p>
+
+                        <h3 class='header'>Reflection</h3>
+                        <p>Although this study is concluded, based on our experience there are a few things to consider if the study were to continue.</p>
+
+                        <ul>
+                            <li><b>Recruiting a more diverse participant pool.</b> Due to time constraints we recruited from our personal networks, which heavily skewed our participant pool. Although there was some range in “COVID caution” across our participants, it was still only a small segment of the Washington state population (for example, all participants were vaccinated and masking indoors). A more representative sample may have produced different data, especially around impressions of value and trust in the application.</li>
+                            <li><b>Testing on Android.</b> Due to team capacity and time we only tested the iOS version of the application. A more thorough review would involve also testing the Android application to provide a full analysis.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <row class='align-items-center'>
+            <div class="text-center top-buffer bottom-buffer">© 2023 Hailee Kenney</div>
+        </row>
+    </body>
+</html>
