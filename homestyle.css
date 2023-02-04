@@ -21,7 +21,7 @@ body {
     min-height: 100%;
 }
 .about {
-	transform: translate(0, 10%);
+	transform: translate(0, 5%);
 	text-align: left;
 }
 .description {
