@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: #ffffff;
+    background: #BBC79C;
 }
 .navbar {
     background:#456058;
@@ -48,22 +48,29 @@ body {
 }
 .comic {
     max-width: 800px;
+    width: 100%;
+}
+.email button {
+    border:1px solid #456058;
+    color: #456058;
+}
+.email button:hover {
+    border:1px solid #BBC79C;
+    background: #456058;
+    color:#ffffff;
 }
 .url-color {
-    color: #83984D !important;
+    color: #456058 !important;
   }
 .url-color:hover, .text-my-own-color:active {
-    color: #83984D !important;
+    color: #fff !important;
 }
 .resume {
     margin-top: 40px;
 }
 .header {
-    color:#4b967a;
+    color:#86c1c4;
     margin-bottom:10px;
-}
-.accent {
-    color:#4b967a;
 }
 .project-image{
     max-width: 300px;
@@ -77,20 +84,20 @@ body {
 }
 
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234b967a' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2386c1c4' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
    }
    
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234b967a' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2386c1c4' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 .carousel .carousel-indicators li {
     background-color: #fff;
-    background-color: rgba(70, 70, 705, 255, 0.25)
+    background-color: rgba(70, 70, 70, 0.25);
   }
   
 .carousel .carousel-indicators .active {
-    background-color: #4b967a;
+    background-color: #86c1c4;
 }
 
 .img-max {
@@ -106,4 +113,8 @@ body {
 .content-max-large {
     max-width: 1800px;
     width: 100%;
+}
+.comic-attribution {
+    text-align: right;
+    font-size: 10px;
 }
