@@ -50,7 +50,7 @@ body {
     max-width: 800px;
 }
 .url-color {
-    color: #83984D !important;
+    color: #83984d !important;
   }
 .url-color:hover, .text-my-own-color:active {
     color: #83984D !important;
@@ -64,6 +64,13 @@ body {
 }
 .accent {
     color:#4b967a;
+}
+.insight{
+    color:#83984D;
+}
+.quote{
+    margin-left: 40px;
+    font-style: italic;
 }
 .project-image{
     max-width: 300px;
